@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Paris Twat-German",
+  "description": "This replaces all mentions of Donald Trump with the phrase 'Paris Twat-German'",
+  "version": "1.0",
+  "content_scripts": [
+  {
+    "matches": [
+    "http://*/*",
+    "https://*/*"
+    ],
+    "js": [
+    "content.js"
+    ],
+    "run_at": "document_end"
+  }
+  ]
+}
