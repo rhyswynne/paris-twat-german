@@ -3,6 +3,8 @@
   "name": "Paris Twat-German",
   "description": "This replaces all mentions of Donald Trump with the phrase 'Paris Twat-German'",
   "version": "1.0",
+  "author": "Rhys Wynne",
+  "homepage_url": "http://www.rhyswynne.co.uk/",
   "content_scripts": [
   {
     "matches": [
