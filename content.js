@@ -16,7 +16,7 @@ for ( var i = 0; i < elements.length; i++ ) {
 
 			for ( var k = 0; k < replacedText.length; k++ ) {
 
-				console.log( replacedText[k] );
+				//console.log( replacedText[k] );
 
 				if ( replacedText[k] !== text ) {
 					element.replaceChild(document.createTextNode(replacedText[k]), node)
